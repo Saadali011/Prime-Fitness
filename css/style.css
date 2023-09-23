@@ -1,14 +1,486 @@
-/* Dropdown background*/
-.dropdownlist{
-    background-color: #343a40;
+
+/* ------------------------------------------------------- ( HEADER )---------------------------------------------------------------------------- */
+/* Navbar Video */
+.header-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    /* height: 80px; */
+    background: rgba(250,250,250,0.1);
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    background:rgba(0, 0, 0, 0.7)url('/img/background/banner1.mp4');
+    background-size: cover;
+    background-blend-mode: darken;
 }
+/* REsponsive Navbar */
+@media (max-width: 991px){
+.header-area{
+    background-color: #151414;
+    padding: 0px 15px;
+    box-shadow: none;
+
+}
+/* REsponsive Navbar */
+}
+@media (max-width: 991.98px){
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    /* padding-right: 0; */
+    padding-left: 0;
+    background-color: #151414;
+    font-size: 20px;
+}
+}
+/* Dropdown background*/
+    .dropdownlist{
+        background-color: #151414;
+    }
+
+/* Dropdown font */
+    .text-size{
+        font-size: 14px;
+    }
 
 /* Dropdown list color */
-.text-color{
-    color: white;
+    .text-color{
+        color: white;
+    }
+    .text-color:hover{
+        color: red;
+        background: #151414;
+    }
+
+
+/* Header Logo */
+    .header-logo img{
+        width: 160px;
+        height: auto;
+        /* padding-left: 30px;  kesi cheez ka lia tha   */
+    }
+
+/* Header or Navbar-padding */
+    .navbar-padding{
+        padding-left: 18%
+    }
+
+    .background{
+        background:rgba(0, 0, 0, 0.7)url('/img/background/banner1.mp4');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+/* ------------------------------------------------------- ( HEADER )---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------- ( FOOTER )---------------------------------------------------------------------------- */
+
+
+/* Footer Logo */
+    .footer-logo img {
+        width: 50%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+
+/* Footer Text Paragraph */
+    .footer-p{
+        color: white ;
+        font-size: 15px;
+        display: inline-block;
+    }
+/* Footer Categories */
+    .footer-categories{
+        color: white; 
+        text-decoration: none;
+        font-size: 15px; 
+        display: inline-block;
+    }
+
+/* Footer Categories hover */
+    .footer-categories:hover{
+        color: red;                            
+        text-decoration: none;
+    }
+
+/* footer bottom */
+    .footer-cta {
+        border-bottom: 1px solid #373636;
+    }
+
+    .footer-cta-heading{
+        width: 135px;
+        border-bottom: 2px solid red;
+        padding-bottom:10px;
+    }
+
+/* footer cta */
+    .cta-text{
+        padding-left: 15px;
+        display: inline-block;
+    }
+
+
+
+/* Font-Awesome */
+    .fa-facebook{
+        color: #1864e7;
+        font-size: 30px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+
+    .fa-instagram{
+        color: #e2289d;
+        font-size: 32px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+
+    .fa-twitter{
+        color: #009dff;
+        font-size: 30px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+
+    .fa-youtube{
+        color: #ff0000;
+        font-size: 30px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+/* ------------------------------------------------------- ( FOOTER )---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------- ( COLORS / HEADING/PARAGRAPH )---------------------------------------------------------------------------- */
+
+
+    /* jet or Onyx black or #151414 */
+        .color-word-black{
+            background-color: #151414;
+        }
+
+    /* RED color */
+        .highlight-red-color{
+            color: #FF2A2A;
+        }
+
+    /* Shade of gray */
+        .shade-gray{
+            color:#D6D5C8 
+        }
+
+    /* Font Family */
+        .font-family{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    /* font awesome */
+        .fa-color{
+            color: #ff0a0a;
+            font-size: 30px;
+        }
+    /* h6 */
+        .h6{
+            font-family: unset;
+        }
+
+    /* HEADING STyle */
+    .headingstyle {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: Black;
+        letter-spacing: 1px;
+    }
+
+    /* HEADING EM */
+    .headingstyle em{
+        font-style: normal;
+        color: rgb(255, 42, 42);
+        font-weight: 700;
+    }
+    
+    /* imgwh */
+    .imgwh{
+        width: 100%;
+        height: 300px;
+    }
+    
+
+    /* mainheading  */
+    .mainheading{
+        font-size: 40px;
+        font-weight: 800; 
+        color: #232d39;
+        text-transform: uppercase;
+        letter-spacing: 0.5px; 
+        text-align: center;
+    }
+    /* mainheading em */
+    .mainheading em{
+        font-style: normal;
+        color: rgb(255, 42, 42);
+        font-weight: 800;
+    }
+    /* Thank you */
+    .fade-in {
+        animation: fadeIn 1s ease-in-out forwards;
+        opacity: 0;
+    }
+    
+    @keyframes fadeIn {
+        from {
+        opacity: 0;
+        transform: translateY(-20px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    
+    /* Thank You */ 
+    
+/* ------------------------------------------------------- ( COLORS )---------------------------------------------------------------------------- */    
+
+/* ------------------------------------------------------- ( HOME PAGE )---------------------------------------------------------------------------- */
+
+/* Banner 1 start */
+    #bg-video {
+        min-width: 100%;
+        min-height: 100vh;
+        max-width: 100%;
+        max-height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+    .banner {
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    
+    .banner .caption{
+        text-align: center;
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+    }
+
+    .banner .caption h1{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 65px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 1px;
+        
+    }
+    .banner .caption h1 em {
+        font-style: normal;
+        color: rgb(255, 42, 42);
+        font-weight: 900;
+    }
+    
+    .banner .caption h6 {
+        margin-top: 0px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 0.5px;
+    }
+    .banner .caption h6 em{
+        font-style: normal;
+        color: rgb(255, 42, 42);
+        font-weight: 900;
+    }
+
+    /* banner 1 END */
+
+    /*  Banner 2 START*/
+    #banner2{
+        padding: 120px 0px;
+        background-image: url(/img/background/banner2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .cta-content h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .cta-content h2 em {
+        font-style: normal;
+        color: rgb(255, 42, 42);
+    }
+    .cta-content p {
+        font-size: 16px;
+        color: #fff;
+        margin: 15px 0px 25px 0px;
+    }
+    .main-button a {
+        border-radius: 10px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        padding: 12px 20px;
+        background-color: rgb(255, 42, 42);
+        color: #fff;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        transition: all .3s;
+    }
+    /* Banner 2 END */
+
+    /* Advantage of Choosing PRIME FITENSS START */
+    .meimg {
+        border-radius: 20px;
+    }
+
+    .imgp {
+        color: rgb(255, 42, 42);
+        font-size: 16px;
+        
+    }
+
+    .mep{
+        color: rgb(78, 76, 76);
+        font-size: 14px;
+    }
+    /* Advantage of Choosing PRIME FITENSS END */
+
+    /* banner 3 START*/
+    #banner3{
+        padding: 120px 0px;
+        background-image: url(/img/background/banner3.jpg);
+        background-position:initial;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     /* Look banner2 for more cta-content     */
+    /* banner 3 END */
+
+    /* SECTION START */
+    .serivce-heading {
+        font-size: 49px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: Black;
+        letter-spacing: 1px;
+    }
+    .serivce-heading em{
+        font-style: normal;
+        color: rgb(255, 42, 42);
+        font-weight: 700;
+    }
+    /* SECTION END */
+
+
+    /* TABLE schedule */
+    .main {
+        max-width: auto;
+        margin: 0 auto;
+        border: 15px solid #eee;
+        padding: 30px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .opening-time {
+        animation: fadeInLeft 1s ease;
+    }
+
+    .closing-time {
+        animation: fadeInRight 1s ease;
+    }
+
+    @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-10%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+    }
+
+    @keyframes fadeInRight {
+        from {
+          opacity: 0;
+          transform: translateX(10%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+    }
+
+/* schedule END */
+
+
+/* ------------------------------------------------------- ( HOME PAGE )---------------------------------------------------------------------------- */
+
+
+
+    /* ABOUT US START */
+
+
+    /* ABOUT US END  */
+
+    /* FAQ'S START */
+
+
+    /* FAQ's END */
+/* ------------------------------------------------------- ( Categories )---------------------------------------------------------------------------- */
+
+ /* -----------------------------------(CYCLE START)---------------------------------------------------     */
+    /* Benefit of cycling START */
+    .benefits-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .benefits-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      
+      .benefits-list li i {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        color: red;
+      }
+      
+      .benefits-list li span {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+     /* Benefit of cycling END */ 
+    /* Cycling for health and fitness start */
+    /* Cycling for health and fitness end */
+/* -----------------------------------(CYCLE END)---------------------------------------------------     */
+
+/* ------------------------------------------------------- ( Categories )---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------- ( List of Equipment START)---------------------------------------------------------------------------- */
+.imgequip{
+    width: 100%;
+    height: 360px;
 }
 
-/* Background-padding */
-.padding{
-    padding-left: 18%
-}
+/* ------------------------------------------------------- ( List of Equipment END )---------------------------------------------------------------------------- */
+

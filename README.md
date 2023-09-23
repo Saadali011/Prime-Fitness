@@ -1,1 +1,1 @@
-# Prime-Fitness
+# Prime Fitness
